@@ -1,0 +1,82 @@
+/*******************************
+* ACCORDION WITH TOGGLE ICONS
+* Does not work properly if "in" is added after "collapse".
+* Get free snippets on bootpen.com
+*******************************/
+	.panel-group .panel {
+		border-radius: 0;
+		box-shadow: none;
+		border-color: #EEEEEE;
+	}
+
+	.panel-default > .panel-heading {
+		padding: 0;
+		border-radius: 0;
+		color: #212121;
+		background-color: #FAFAFA;
+		border-color: #EEEEEE;
+	}
+
+	.panel-title {
+		font-size: 14px;
+	}
+
+	.panel-title > a {
+		display: block;
+		padding: 15px;
+		text-decoration: none;
+    background-color:#fff;
+	}
+
+	.more-less {
+		float: right;
+		color: #ffc704;
+	}
+
+	.panel-default > .panel-heading + .panel-collapse > .panel-body {
+		border-top-color: #ededed;
+	}
+	
+	/* footer
+----------*/
+
+.social-link li {
+    float: left;
+}
+.social-link li a {
+    color: #919191;
+    display: block;
+    padding: 0 15px;
+}
+.social-link li a:hover {
+    color: #000000;
+}
+.social-link li:last-child a {
+    padding-right: 0;
+}
+.footer .left p,
+.social-link li a{
+    font-size: 13px;
+	font-family: 'montserratlight';
+	line-height: 19px;
+}
+.footer .left p{
+	color: #585858; /*818181*/
+}
+
+}
+.bg-color-6 {
+	background: #d8d8d8 none repeat scroll 0 0;   /* Color test */
+}
+
+.container .row,
+.container-fluid .row {
+    margin-bottom: 0;
+}
+
+.floatright{
+	float: right;
+}
+.floatleft{
+	float: left;
+}
